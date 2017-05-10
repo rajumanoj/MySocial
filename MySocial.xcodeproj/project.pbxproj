@@ -18,6 +18,11 @@
 		AF2085B11EC27A9A009F7637 /* MySocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2085B01EC27A9A009F7637 /* MySocialTests.swift */; };
 		AF2085BC1EC27A9A009F7637 /* MySocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2085BB1EC27A9A009F7637 /* MySocialUITests.swift */; };
 		AF2085CA1EC27BC1009F7637 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF2085C91EC27BC1009F7637 /* GoogleService-Info.plist */; };
+		AF2085D11EC29736009F7637 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2085D01EC29736009F7637 /* FancyView.swift */; };
+		AF2085D31EC297A5009F7637 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2085D21EC297A5009F7637 /* Constants.swift */; };
+		AF5C5FAD1EC2AC1900ED2E19 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C5FAC1EC2AC1900ED2E19 /* RoundButton.swift */; };
+		AF5C5FAF1EC2ADEB00ED2E19 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C5FAE1EC2ADEB00ED2E19 /* FancyField.swift */; };
+		AF5C5FB11EC2AEDE00ED2E19 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C5FB01EC2AEDE00ED2E19 /* FancyBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		AF2085BB1EC27A9A009F7637 /* MySocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySocialUITests.swift; sourceTree = "<group>"; };
 		AF2085BD1EC27A9A009F7637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF2085C91EC27BC1009F7637 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF2085D01EC29736009F7637 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		AF2085D21EC297A5009F7637 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF5C5FAC1EC2AC1900ED2E19 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		AF5C5FAE1EC2ADEB00ED2E19 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		AF5C5FB01EC2AEDE00ED2E19 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		BED65E60229D03B30C851A98 /* Pods_MySocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2CE59809B0BF52FC2E2CCC /* Pods_MySocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -160,6 +170,10 @@
 			isa = PBXGroup;
 			children = (
 				AF20859D1EC27A9A009F7637 /* SignInVC.swift */,
+				AF2085D01EC29736009F7637 /* FancyView.swift */,
+				AF5C5FAC1EC2AC1900ED2E19 /* RoundButton.swift */,
+				AF5C5FAE1EC2ADEB00ED2E19 /* FancyField.swift */,
+				AF5C5FB01EC2AEDE00ED2E19 /* FancyBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -174,6 +188,7 @@
 		AF2085CE1EC27DDB009F7637 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				AF2085D21EC297A5009F7637 /* Constants.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -490,8 +505,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5C5FAF1EC2ADEB00ED2E19 /* FancyField.swift in Sources */,
 				AF20859E1EC27A9A009F7637 /* SignInVC.swift in Sources */,
+				AF5C5FAD1EC2AC1900ED2E19 /* RoundButton.swift in Sources */,
 				AF20859C1EC27A9A009F7637 /* AppDelegate.swift in Sources */,
+				AF2085D11EC29736009F7637 /* FancyView.swift in Sources */,
+				AF2085D31EC297A5009F7637 /* Constants.swift in Sources */,
+				AF5C5FB11EC2AEDE00ED2E19 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
